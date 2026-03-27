@@ -1,0 +1,115 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1365px;
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    background-image: url(../img/imagenparaelheader.png);
+    align-items: center;
+}
+header img{
+    height: 95%;
+}
+nav{
+    width: 1365.5px;
+    height: 170px;
+    text-align: center;
+    background-color: #256863;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 10px;
+    transition: .4s;
+    overflow: hidden;
+}
+nav a:hover{
+    background-color: rgb(155, 152, 152);
+    color: rgb(8, 133, 25); 
+    transform: scale(1.2);
+    border-radius: 20px;
+}
+thead{
+    background-color: #BFBABA;
+    text-align: center;
+    padding: 15px 10px;
+}
+table{
+    background-color: #BFBABA;
+    padding: 10px;
+    text-align: right;
+    border-radius: 8%;
+}
+a table{
+    text-align: center;
+}
+main{
+    width: 1366px;
+    height: 1333px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-image: url(../img/imagendemain.png);
+}
+section{
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: 200px;
+}
+info{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 128, 0, 0.575);
+
+    position: absolute ;
+    top: 250px;
+
+    transition: .8s;
+    padding: 15px;
+}
+a section{
+    height: auto;
+    /*background-color: rgba(100, 3, 3, 0.842);*/
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.personaje{
+    width: 300px;
+    height: 300px;
+    /*background-color: rgba(121, 21, 21, 0.856);*/
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.info{
+ width: 300px;
+ height: 300px;
+ background-color: rgba(8, 116, 66, 0.637);
+
+ position: absolute;
+ top: 250px;
+
+ transition: .8s;
+ padding: 15px;
+}
+ .info:hover{
+    top: 20px;
+}
+footer{
+    background-image: url(../img/Logo.png);
+    width: 1366px;
+    height: 200px;
+    background-color: #256863;
+    text-align: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,51 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 1365px;
+    height: 130px;
+    background-color: #256863;
+    margin: 0;
+    text-align: center;
+}
+section{ /*recuadro detro formulario*/
+    width: 400px;
+    height: 500px; 
+    background-color: rgb(221, 221, 221);
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+body{ /*recuadro fuera del formulario (fondo del navegador)*/
+    background-color: aliceblue;
+}
+main{
+    width: 1366px;
+    height: 1333px;
+    padding: 10px;
+    text-align: center;
+    background-image: url(../img/imagendemain.png);
+    background-repeat: no-repeat;
+
+}
+.a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 10px;
+    transition: .4s;
+    overflow: hidden;
+}
+a{
+    background-color: rgb(155, 152, 152);
+    color: rgb(0, 0, 0); 
+    transform: scale(1.2);
+}
+footer{
+    white: 1366px;
+    height: 150px;
+    margin: 0;
+    text-align: center;
+    background-color: #256863;
+}
